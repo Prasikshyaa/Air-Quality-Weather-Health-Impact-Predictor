@@ -324,3 +324,14 @@ elif menu == "📊 Prediction Analysis":
             - Temperature varies widely but is less correlated to pollution.  
             - Bhutan’s Thimphu stands out as the healthiest and cleanest capital.
             """)
+st.markdown(
+    """
+    <hr>
+    <p style='text-align:center; font-size:12px; color:gray;'>
+        Air Quality, Weather & Health Impact Predictor<br>
+        Developed by Prasikshya Karki — 2025<br>
+        Data sourced from OpenWeatherMap API
+    </p>
+    """,
+    unsafe_allow_html=True
+)
