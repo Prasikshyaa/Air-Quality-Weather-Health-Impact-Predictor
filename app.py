@@ -326,12 +326,13 @@ elif menu == "📊 Prediction Analysis":
             """)
 st.markdown(
     """
-    <hr>
-    <p style='text-align:center; font-size:12px; color:gray;'>
+    <hr style='border:1px solid #ddd'>
+    <p style='text-align:center; font-size:13px; color:gray;'>
         Air Quality, Weather & Health Impact Predictor<br>
-        Developed by Prasikshya Karki — 2025<br>
-        Data sourced from OpenWeatherMap API
+        Developed by <span style='color:brown; font-weight:bold;'>Prasikshya Karki — 2025</span><br>
+        Data sourced from <a href='https://openweathermap.org/api' target='_blank'>OpenWeatherMap API</a>
     </p>
     """,
     unsafe_allow_html=True
 )
+
