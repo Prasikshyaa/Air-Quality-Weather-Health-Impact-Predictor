@@ -57,32 +57,27 @@ Interactive visual dashboards have been developed to communicate these findings 
 
 ## 5. Project Structure
 
-
+```
 PYTHON_PROJECT/
-│
-├── app.py                      # Main Streamlit dashboard application
-├── data_cleaning.py            # Data cleaning and preprocessing script
-├── train_models.py             # Model training for AQI and health prediction
-├── requirements.txt            # List of dependencies used in the project
-├── Recommendation.md           # Project documentation and explanation
-├── README.md                   # Summary and quick start guide
-│
 ├── assets/
-│   └── style.css               # Styling for Streamlit app
-│
+│ └── style.css
 ├── data/
-│   ├── south_asia_6months_data.csv
-│   ├── south_asia_6months_data_clean.csv
-│   ├── weather_latest.csv
-│   ├── air_quality_latest.csv
-│   ├── aqi_model.pkl
-│   └── health_model.pkl
-│
-└── notebooks/
-    ├── data_fetch.ipynb
-    └── fetch_historical_data.ipynb
-
-
+│ ├── weather_latest.csv
+│ ├── air_quality_latest.csv
+│ ├── aqi_model.pkl
+│ ├── health_model.pkl
+│ ├── south_asia_6months_data.csv
+│ └── south_asia_6months_data_clean.csv
+├── notebooks/
+│ ├── data_fetch.ipynb
+│ └── fetch_historical_data.ipynb
+├── app.py
+├── data_cleaning.py
+├── train_models.py
+├── requirement.txt
+├── README.md
+└── Project_Details.md
+```
 ---
 
 ## 6. Key Findings and Insights
@@ -111,4 +106,4 @@ PYTHON_PROJECT/
 
 **Prasikshya Karki – 2025**
 
----
+
