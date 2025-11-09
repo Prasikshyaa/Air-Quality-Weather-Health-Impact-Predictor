@@ -313,9 +313,7 @@ elif menu == "📊 Prediction Analysis":
                 fig2 = px.bar(avg_temp, x="city", y="temp_max", color="city", title="Average Temperature per City (°C)")
                 st.plotly_chart(fig2, use_container_width=True)
 
-            avg_pm = df.groupby("city")["pm25"].mean().reset_index()
-            fig3 = px.pie(avg_pm, names="city", values="pm25", title="Average PM2.5 Share by City")
-            st.plotly_chart(fig3, use_container_width=True)
+        
 
             st.write("### 🧭 Key Takeaways")
             st.markdown("""
