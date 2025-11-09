@@ -63,9 +63,9 @@ if menu == "Home":
     hist_path = "data/south_asia_6months_data_clean.csv"
     if os.path.exists(hist_path):
         df = pd.read_csv(hist_path)
-        st.subheader("Prediction of South Asian Capitals — Data Overview")
+        st.subheader("Sample Historical Data Overview")
         
-        
+      
         #group by city and compute mean for key columns
         city_summary = df.groupby("city")[["pm25","temp_max","humidity_max","AQI"]].mean().reset_index()
         st.dataframe(city_summary)
